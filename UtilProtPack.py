@@ -3,7 +3,9 @@ import SalineBonds
 import ModifyPDB1
 import PrintResidues
 import GetCoordRange
+import BFactorCal
 
+# TODO: implement BFactorCal and TEST GetCoordRange
 running = True
 while(running):
     print("Please choose action:[1]-ModifyPDB1, [2]-PrintRes, [3]-CationPi, [4]-SalineBonds, [5]-GetRange, [0]-Help, [x]-Close")
